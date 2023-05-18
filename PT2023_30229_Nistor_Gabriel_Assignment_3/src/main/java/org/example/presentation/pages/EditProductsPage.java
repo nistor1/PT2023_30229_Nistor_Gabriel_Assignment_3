@@ -116,37 +116,8 @@ public class EditProductsPage extends Page {
 
         //Instantierea unui obiect JTable si a unui model.
         JTable table = new JTable();
-        DefaultTableModel tableModel = (DefaultTableModel) table.getModel();
-
-        try {
-            int cols = 5;
-            String[] columnName = new String[cols];
-            columnName[0] = "id_product";
-            columnName[1] = "brand";
-            columnName[2] = "description";
-            columnName[3] = "Stock";
-            columnName[4] = "price";
-
-            tableModel.setColumnIdentifiers(columnName);
-
-            String[] columns = new String[cols];
-
-            for(Product product : productList) {
-                Integer x = product.getId();
-                columns[0] = x.toString();
-                columns[1] = product.getBrand();
-                columns[2] = product.getDescription();
-                x = product.getStock_quantity();
-                columns[3] = x.toString();
-                Double price = product.getPrice_c();
-                columns[4] = price.toString();
-
-                tableModel.addRow(columns);
-            }
-        } catch (Exception e) {
-            e.fillInStackTrace();
-        }
-
+        RefelctionJTable reflectionJTable3 = new RefelctionJTable();
+        table = reflectionJTable3.createJTableFromList(productList);
         JScrollPane scrollPane = new JScrollPane(table);
 
         panel.add(scrollPane);

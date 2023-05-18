@@ -62,34 +62,8 @@ public class EditOrdersPage extends Page {
         //ResultSetTableModel resultSetTableModel = new ResultSetTableModel(result);
 
         //Instantierea unui obiect JTable si a unui model.
-         table1 = new JTable();
-        DefaultTableModel tableModel = (DefaultTableModel) table1.getModel();
-
-        try {
-
-            int cols = 5;
-            String[] columnName = new String[cols];
-            columnName[0] = "id_client";
-            columnName[1] = "name";
-            columnName[2] = "address";
-            columnName[3] = "email";
-            columnName[4] = "age";
-
-            tableModel.setColumnIdentifiers(columnName);
-
-            String[] columns = new String[cols];
-            for(Client client : clientList) {
-                columns[0] = client.getId().toString();
-                columns[1] = client.getName();
-                columns[2] = client.getAddress();
-                columns[3] = client.getEmail();
-                columns[4] = client.getAge().toString();
-
-                tableModel.addRow(columns);
-            }
-        } catch (Exception e) {
-            e.fillInStackTrace();
-        }
+        RefelctionJTable reflectionJTable = new RefelctionJTable();
+        table1 = reflectionJTable.createJTableFromList(clientList);
 
         JScrollPane scrollPane = new JScrollPane(table1);
 
@@ -98,37 +72,8 @@ public class EditOrdersPage extends Page {
         //ResultSetTableModel resultSetTableModel = new ResultSetTableModel(result);
 
         //Instantierea unui obiect JTable si a unui model.
-        table2 = new JTable();
-        DefaultTableModel tableModel2 = (DefaultTableModel) table2.getModel();
-
-        try {
-            int cols = 5;
-            String[] columnName = new String[cols];
-            columnName[0] = "id_product";
-            columnName[1] = "brand";
-            columnName[2] = "description";
-            columnName[3] = "Stock";
-            columnName[4] = "price";
-
-            tableModel2.setColumnIdentifiers(columnName);
-
-            String[] columns = new String[cols];
-
-            for(Product product : productList) {
-                Integer x = product.getId();
-                columns[0] = x.toString();
-                columns[1] = product.getBrand();
-                columns[2] = product.getDescription();
-                x = product.getStock_quantity();
-                columns[3] = x.toString();
-                Double price = product.getPrice_c();
-                columns[4] = price.toString();
-
-                tableModel2.addRow(columns);
-            }
-        } catch (Exception e) {
-            e.fillInStackTrace();
-        }
+        RefelctionJTable reflectionJTable1 = new RefelctionJTable();
+        table2 = reflectionJTable.createJTableFromList(productList);
 
         JScrollPane scrollPane2 = new JScrollPane(table2);
 
@@ -152,34 +97,8 @@ public class EditOrdersPage extends Page {
         buttonPanel.add(button);
 
         //Instantierea unui obiect JTable si a unui model.
-         table3 = new JTable();
-        DefaultTableModel tableModel = (DefaultTableModel) table3.getModel();
-
-        try {
-
-            int cols = 4;
-            String[] columnName = new String[cols];
-            columnName[0] = "id_bill";
-            columnName[1] = "name";
-            columnName[2] = "product_name";
-            columnName[3] = "quantity";
-
-            tableModel.setColumnIdentifiers(columnName);
-
-            String[] columns = new String[cols];
-            for(Bill bill : billList) {
-                Integer x = bill.id();
-                columns[0] = x.toString();
-                columns[1] = bill.name();
-                columns[2] = bill.productName();
-                x = bill.quantity();
-                columns[3] = x.toString();
-
-                tableModel.addRow(columns);
-            }
-        } catch (Exception e) {
-            e.fillInStackTrace();
-        }
+        RefelctionJTable reflectionJTable3 = new RefelctionJTable();
+        table3 = reflectionJTable3.createJTableFromList(billList);
 
         JScrollPane scrollPane = new JScrollPane(table3);
 

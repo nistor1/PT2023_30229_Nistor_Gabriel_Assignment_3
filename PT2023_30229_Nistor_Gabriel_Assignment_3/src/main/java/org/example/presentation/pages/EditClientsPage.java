@@ -115,35 +115,10 @@ public class EditClientsPage extends Page {
         buttonPanel.add(button);
 
         //Instantierea unui obiect JTable si a unui model.
-        JTable table = new JTable();
-        DefaultTableModel tableModel = (DefaultTableModel) table.getModel();
+        JTable table;
 
-        try {
-
-            int cols = 5;
-            String[] columnName = new String[cols];
-            columnName[0] = "id_client";
-            columnName[1] = "name";
-            columnName[2] = "address";
-            columnName[3] = "email";
-            columnName[4] = "age";
-
-            tableModel.setColumnIdentifiers(columnName);
-
-            String[] columns = new String[cols];
-            for(Client client : clientList) {
-                columns[0] = client.getId().toString();
-                columns[1] = client.getName();
-                columns[2] = client.getAddress();
-                columns[3] = client.getEmail();
-                columns[4] = client.getAge().toString();
-
-                tableModel.addRow(columns);
-            }
-        } catch (Exception e) {
-            e.fillInStackTrace();
-        }
-
+            RefelctionJTable reflectionJTable = new RefelctionJTable();
+            table = reflectionJTable.createJTableFromList(clientList);
         JScrollPane scrollPane = new JScrollPane(table);
 
         panel.add(scrollPane);

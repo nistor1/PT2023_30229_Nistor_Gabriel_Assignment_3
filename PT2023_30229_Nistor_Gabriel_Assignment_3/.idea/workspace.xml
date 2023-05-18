@@ -5,42 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8339c9e-e545-4cfd-8b39-41f384e875ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/OrderBLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/AgeValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/ClientNameValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/EmailValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/PriceValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/ProductNameValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/QuantityBillValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/QuantityValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataAccess/AbstractDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataAccess/BillDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/EditClientsPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/EditOrdersPageConroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/EditProductsPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/HomePageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/EditClientsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/EditOrdersPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/EditProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/RefelctionJTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/ClientBLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/ClientBLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/ProductBLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/ProductBLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/connection/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/connection/ConnectionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataAccess/ClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dataAccess/ClientDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataAccess/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dataAccess/ProductDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/presentation/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/presentation/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/EditClientsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/EditClientsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/EditOrdersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/EditOrdersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/EditProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/EditProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/presentation/pages/EditClientsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/presentation/pages/EditClientsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/presentation/pages/EditOrdersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/presentation/pages/EditOrdersPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/presentation/pages/EditProductsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/presentation/pages/EditProductsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$2023_Template_Documentatie_RO.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~WRL0001.tmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +96,7 @@
       <workItem from="1684411041188" duration="79000" />
       <workItem from="1684411193305" duration="334000" />
       <workItem from="1684411565874" duration="6000" />
-      <workItem from="1684411749110" duration="383000" />
+      <workItem from="1684411749110" duration="2968000" />
     </task>
     <servers />
   </component>
