@@ -4,27 +4,99 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8339c9e-e545-4cfd-8b39-41f384e875ba" name="Changes" comment="" />
+    <list default="true" id="a8339c9e-e545-4cfd-8b39-41f384e875ba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/OrderBLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/AgeValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/ClientNameValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/EmailValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/PriceValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/ProductNameValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/QuantityBillValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/QuantityValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/validators/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataAccess/AbstractDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dataAccess/BillDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/EditClientsPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/EditOrdersPageConroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/EditProductsPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/HomePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/EditClientsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/EditOrdersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/EditProductsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/pages/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/ClientBLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/ClientBLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/ProductBLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/businessLogic/ProductBLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/connection/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/connection/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataAccess/ClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dataAccess/ClientDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dataAccess/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dataAccess/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/presentation/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/presentation/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/presentation/View.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2PkHA7NZepJrttN9iOxDypys3Wu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="PT2023_30229_Nistor_Gabriel_Assignment_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -33,11 +105,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683994016065</updated>
-      <workItem from="1683994017720" duration="110000" />
+      <workItem from="1683994017720" duration="2337000" />
+      <workItem from="1683997177938" duration="1260000" />
+      <workItem from="1683998622789" duration="354000" />
+      <workItem from="1683998993868" duration="1408000" />
+      <workItem from="1684001028123" duration="1234000" />
+      <workItem from="1684067315920" duration="18613000" />
+      <workItem from="1684173969367" duration="15664000" />
+      <workItem from="1684334228715" duration="7941000" />
+      <workItem from="1684342336586" duration="4309000" />
+      <workItem from="1684360038601" duration="1101000" />
+      <workItem from="1684361150912" duration="6133000" />
+      <workItem from="1684367315285" duration="96000" />
+      <workItem from="1684367436901" duration="6673000" />
+      <workItem from="1684403618078" duration="4122000" />
+      <workItem from="1684411041188" duration="79000" />
+      <workItem from="1684411193305" duration="334000" />
+      <workItem from="1684411565874" duration="6000" />
+      <workItem from="1684411749110" duration="383000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PT2023_30229_Nistor_Gabriel_Assignment_3$Main.ic" NAME="Main Coverage Results" MODIFIED="1684346623976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>
